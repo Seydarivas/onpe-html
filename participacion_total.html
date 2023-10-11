@@ -47,7 +47,7 @@
                 <a href="./presidenciales.html">PRESIDENCIAL</a>
               </li>
               <li class="bt-amarillo">
-                <a href="./actas_ubigueo.html">ACTAS</a>
+                <a href="./actas_ubigeo.html">ACTAS</a>
               </li>
               <li class="bt-rojo act-rojo">
                 <a href="./participacion.html">PARTICIPACIÓN CIUDADANA</a>
@@ -116,8 +116,8 @@
                   </div>
 
                   <div class="col-xs-12 col-md-6">
-                    <div class="cont-recto" style="margin-bottom:10px">
-                      Ámbito: Nacional
+                    <div class="cont-recto" style="margin-bottom:10px" id = "ambito">
+                     
                     </div>
                     <p class="subtitle">ELECTORES HÁBILES 22,017,030</p>
                     <div id="page-wrap">
@@ -144,38 +144,7 @@
 
                 </div>
                 
-                <div class="col-xs-12">
-                  <p class="subtitle">Consulta de participación DETALLADO </p>
-                  <div id="page-wrap">
-                    <table class="table21">
-                      <tbody id="resultados">
-                        <tr class="titulo_tabla">
-                          <td>DEPARTAMENTO</td>
-                          <td>TOTAL ASISTENTES</td>
-                          <td>% TOTAL ASISTENTES</td>
-                          <td>TOTAL AUSENTES</td>
-                          <td>% TOTAL AUSENTES</td>
-                          <td>ELECTORES HÁBILES</td>
-                        </tr>
-                        <tr onclick="location.href='./participacion_total.html?id=nacional,AMAZONAS'" onmouseover="this.style.cursor = &quot;pointer&quot;; this.style.color = &quot;grey&quot;" onmouseout="this.style.color = &quot;black&quot;" style="cursor: pointer; color: black;">
-                          <td>AMAZONAS</td>
-                          <td>182,570</td>
-                          <td>67.575%</td>
-                          <td>87,605</td>
-                          <td>32.425%</td>
-                          <td>270,175</td>
-                        </tr>
-                        <tr>
-                          <td>TOTALES</td>
-                          <td>17,953,367</td>
-                          <td>81.543%</td>
-                          <td>4,063,663</td>
-                          <td>18.457%</td>
-                          <td>22,017,030</td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
+                <div class="col-xs-12" id = "resultados_onpe">
 
                 </div>
               </div>
@@ -201,6 +170,6 @@
           </div>
         </div>
     </footer>
-      <script src="js/total.js"></script>
+      <script src="js/participacion.js"></script>
   </body>
 </html>
