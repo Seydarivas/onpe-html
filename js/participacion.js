@@ -20,7 +20,7 @@ const getDPD = async () => {
 
   document.getElementById('ambito').innerHTML = ambito
 
-  if (data.status == 200) {
+  if (data.status == 200 && parametros.length < 4) {
     const dpd = await data.json();
 
     //departamento, distrito, provincia
